@@ -1,4 +1,4 @@
-name = "voistudio"
+name = "bluetuskstudio"
 compatibility_date = "2026-05-29"
 
 # Static site: serve the built ./dist folder as assets.
