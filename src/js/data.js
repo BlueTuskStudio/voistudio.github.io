@@ -115,7 +115,7 @@ export const COMMUNITY = [
   { id: 'reddit', live: true, url: 'https://reddit.com/r/IndieDev', label: 'r/IndieDev', icon: 'reddit',
     desc: { en: 'We post devlog highlights on Reddit when something feels share-worthy.',
             vi: 'Chúng tôi đăng các đoạn devlog nổi bật trên Reddit khi có gì đáng chia sẻ.' } },
-  { id: 'github', live: true, url: 'https://github.com/VoiStudio', label: 'GitHub', icon: 'github',
+  { id: 'github', live: true, url: 'https://github.com/BlueTuskStudio', label: 'GitHub', icon: 'github',
     desc: { en: 'A few open-source utilities and our website source live here.',
             vi: 'Vài tiện ích open-source và source của website này nằm ở đây.' } },
   { id: 'itch', live: false, label: 'itch.io', icon: 'itch',
@@ -193,6 +193,6 @@ export const INFO = {
 
 export const SITE = {
   email: 'quanganh01082002@gmail.com',
-  github: 'https://github.com/VoiStudio',
+  github: 'https://github.com/BlueTuskStudio',
   baseUrl: 'https://bluetuskstudio.com'
 };
