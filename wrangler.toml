@@ -1,0 +1,7 @@
+name = "voistudio"
+compatibility_date = "2026-05-29"
+
+# Static site: serve the built ./dist folder as assets.
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"

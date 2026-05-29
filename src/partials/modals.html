@@ -1,0 +1,72 @@
+<!-- GAME MODAL -->
+<div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-hero">
+      <button class="modal-close" data-close-modal aria-label="Close">✕</button>
+      <img src="" alt="" loading="lazy">
+    </div>
+    <div class="modal-body">
+      <div class="meta" id="modalMeta"></div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+
+      <div id="trailerSlot"></div>
+      <div class="gallery" id="modalGallery"></div>
+
+      <ul class="modal-features" id="modalFeatures"></ul>
+      <div class="modal-platforms" id="modalPlatforms"></div>
+      <div class="modal-actions" id="modalActions"></div>
+    </div>
+  </div>
+</div>
+
+<!-- DEVLOG POST MODAL -->
+<div class="modal-backdrop" id="postModal" role="dialog" aria-modal="true" aria-labelledby="postTitle">
+  <div class="modal devlog-post">
+    <div class="modal-body">
+      <button class="modal-close" id="postClose" data-close-modal aria-label="Close" style="top: 18px; right: 18px; position: absolute;">✕</button>
+      <div class="meta" id="postMeta"></div>
+      <h2 id="postTitle"></h2>
+      <div class="content" id="postContent"></div>
+      <div class="share-row" id="postShare"></div>
+    </div>
+  </div>
+</div>
+
+<!-- INFO MODAL -->
+<div class="modal-backdrop" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="infoTitle">
+  <div class="modal small">
+    <div class="modal-body">
+      <h2 id="infoTitle" style="margin-top: 6px;"></h2>
+      <div class="info-text" id="infoBody"></div>
+      <div style="margin-top: 22px;">
+        <button class="btn btn-ghost" data-close-modal data-i18n="modal.close">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <div class="lightbox-inner">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+  </div>
+</div>
+
+<!-- NOTICE -->
+<div class="notice" id="notice" role="status" aria-live="polite">
+  <p data-i18n="notice.body">No cookies, no trackers, no analytics. Just a static site. This message will only show once.</p>
+  <div class="actions">
+    <button class="primary" id="noticeOk" data-i18n="notice.ok">Got it</button>
+  </div>
+</div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- BACK TO TOP -->
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07090f"/>
+      <stop offset="100%" stop-color="#131925"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.35" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#4f8ef7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4f8ef7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(80, 80)">
+    <rect width="72" height="72" rx="16" fill="#0d1117" stroke="rgba(255,255,255,0.07)"/>
+    <g transform="translate(4, 4) scale(1.0)">
+      <path d="M18 44 C 22 28, 32 18, 46 18 C 40 28, 34 36, 28 44 Z" fill="#4f8ef7"/>
+      <path d="M22 46 C 26 34, 34 26, 44 24" stroke="#7eb3ff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="172" y="128" font-family="'Space Mono',monospace" font-size="18" letter-spacing="6" fill="#e8edf5" font-weight="700">BLUE TUSK STUDIO</text>
+
+  <!-- Headline -->
+  <text x="80" y="320" font-family="'Space Grotesk',sans-serif" font-size="92" letter-spacing="-2" fill="#e8edf5" font-weight="700">We Make</text>
+  <text x="80" y="420" font-family="'Space Grotesk',sans-serif" font-size="92" letter-spacing="-2" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.2" font-weight="700">Games.</text>
+
+  <!-- Tagline -->
+  <text x="80" y="500" font-family="'Space Grotesk',sans-serif" font-size="24" fill="#8892a8">Indie mobile game studio. Casual games,</text>
+  <text x="80" y="535" font-family="'Space Grotesk',sans-serif" font-size="24" fill="#8892a8">satisfying mechanics, clean aesthetics.</text>
+
+  <!-- URL pill -->
+  <g transform="translate(80, 570)">
+    <rect width="240" height="32" rx="16" fill="none" stroke="#4f8ef7"/>
+    <text x="120" y="22" text-anchor="middle" font-family="'Space Mono',monospace" font-size="13" letter-spacing="2" fill="#7eb3ff">VOISTUDIO.GITHUB.IO</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <g opacity="0.7">
+    <circle cx="950"  cy="200" r="4" fill="#7eb3ff"/>
+    <circle cx="1020" cy="280" r="3" fill="#7eb3ff"/>
+    <circle cx="1080" cy="180" r="3" fill="#4f8ef7"/>
+    <circle cx="960"  cy="380" r="3" fill="#4f8ef7"/>
+    <circle cx="1100" cy="350" r="4" fill="#7eb3ff"/>
+    <path d="M950 200 L 1020 280 L 1080 180 L 960 380 L 1100 350" stroke="#4f8ef7" stroke-width="1" fill="none" opacity="0.3"/>
+  </g>
+</svg>

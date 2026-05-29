@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2233"/>
+      <stop offset="100%" stop-color="#07090f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <g opacity="0.6">
+    <path d="M400 600 Q 500 300, 700 450 T 1000 350 T 1300 500" stroke="#4f8ef7" stroke-width="3" fill="none"/>
+    <path d="M400 650 Q 500 350, 700 500 T 1000 400 T 1300 550" stroke="#7eb3ff" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+  <g fill="#7eb3ff">
+    <circle cx="400" cy="600" r="6"/>
+    <circle cx="700" cy="450" r="6"/>
+    <circle cx="1000" cy="350" r="6"/>
+    <circle cx="1300" cy="500" r="6"/>
+  </g>
+  <text x="800" y="820" text-anchor="middle" font-family="'Space Mono',monospace" font-size="22" letter-spacing="4" fill="#5a6478" opacity="0.7">SAND COLORING — SCREENSHOT 03</text>
+</svg>

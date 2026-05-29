@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07090f">
+  <title>Sand Coloring — Blue Tusk Studio</title>
+  <meta name="description" content="A relaxing sand-art coloring game. Connect dots, reveal patterns, paint with sand.">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Sand Coloring — Blue Tusk Studio">
+  <meta property="og:description" content="A relaxing sand-art coloring game. Connect dots, reveal patterns, paint with sand.">
+  <meta property="og:url" content="https://bluetuskstudio.com/games/sand-coloring/">
+  <meta property="og:image" content="https://bluetuskstudio.com/assets/screenshots/sand-coloring/1.svg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sand Coloring — Blue Tusk Studio">
+  <meta name="twitter:description" content="A relaxing sand-art coloring game. Connect dots, reveal patterns, paint with sand.">
+  <meta name="twitter:image" content="https://bluetuskstudio.com/assets/screenshots/sand-coloring/1.svg">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307090f'/%3E%3Cpath d='M18 44 C 22 28, 32 18, 46 18 C 40 28, 34 36, 28 44 Z' fill='%234f8ef7'/%3E%3Cpath d='M22 46 C 26 34, 34 26, 44 24' stroke='%237eb3ff' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Sand Coloring",
+    "description": "A relaxing sand-art coloring game.",
+    "applicationCategory": "Game",
+    "gamePlatform": ["iOS", "Android"],
+    "publisher": { "@type": "Organization", "name": "Blue Tusk Studio" }
+  }
+  </script>
+
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('bts-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        var l = localStorage.getItem('bts-lang')  || (navigator.language && navigator.language.startsWith('vi') ? 'vi' : 'en');
+        document.documentElement.setAttribute('data-theme', t);
+        document.documentElement.setAttribute('lang', l);
+        document.documentElement.setAttribute('data-lang', l);
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body data-game-slug="sand-coloring">
+
+  <a href="#main" class="skip" data-i18n="a11y.skip">Skip to content</a>
+
+  <div id="loader" aria-hidden="true">
+    <div class="loader-mark">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M18 44 C 22 28, 32 18, 46 18 C 40 28, 34 36, 28 44 Z" fill="#4f8ef7"/>
+        <path d="M22 46 C 26 34, 34 26, 44 24" stroke="#7eb3ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </div>
+
+  <div data-shell="nav"></div>
+
+  <main id="main">
+    <div class="game-page-hero">
+      <a href="/" class="back">← Back to home</a>
+      <p class="meta" id="gameMeta">Casual · Relaxing · In Development</p>
+      <h1 id="gameTitle">Sand Coloring</h1>
+      <p class="tagline" id="gameTagline">Connect dots, reveal patterns, paint with sand.</p>
+      <div class="ctas" id="gameCtas"></div>
+    </div>
+
+    <div class="game-page-trailer">
+      <div id="gameTrailer"></div>
+    </div>
+
+    <section class="game-page-section reveal">
+      <h2>Gallery</h2>
+      <div class="game-gallery" id="gameGallery"></div>
+    </section>
+
+    <section class="game-page-section reveal">
+      <h2>Features</h2>
+      <ul class="features-list" id="gameFeatures"></ul>
+    </section>
+
+    <section class="game-page-section reveal">
+      <h2>Details</h2>
+      <div id="gameMeta2"></div>
+    </section>
+
+    <div class="game-page-cta">
+      <div class="card reveal">
+        <div>
+          <h3 data-i18n="modal.playtestCta">Join playtest →</h3>
+          <p>We're inviting players in waves. Hop on the list — we'll reach out when there's a spot.</p>
+        </div>
+        <a href="mailto:quanganh01082002@gmail.com?subject=Sand%20Coloring%20%E2%80%94%20playtest%20signup" class="btn btn-primary" data-i18n="modal.playtestCta">Join playtest →</a>
+      </div>
+    </div>
+  </main>
+
+  <div data-shell="footer"></div>
+  <div data-shell="modals"></div>
+
+  <script type="module" src="/src/js/game-detail.js"></script>
+</body>
+</html>

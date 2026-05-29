@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "2026-05-12-particle-pass-v2",
+    "date": "2026-05-12",
+    "tag": "Sand Coloring",
+    "title": {
+      "en": "Particle pass v2",
+      "vi": "Tinh chỉnh particle lần 2"
+    }
+  },
+  {
+    "slug": "2026-04-28-website-v1",
+    "date": "2026-04-28",
+    "tag": "Studio",
+    "title": {
+      "en": "Website v1 is live",
+      "vi": "Website v1 đã online"
+    }
+  },
+  {
+    "slug": "2026-04-10-first-closed-playtest",
+    "date": "2026-04-10",
+    "tag": "Sand Coloring",
+    "title": {
+      "en": "First closed playtest",
+      "vi": "Playtest kín đầu tiên"
+    }
+  },
+  {
+    "slug": "2026-03-22-why-blue-tusk",
+    "date": "2026-03-22",
+    "tag": "Studio",
+    "title": {
+      "en": "Why \"Blue Tusk\"",
+      "vi": "Vì sao là \"Blue Tusk\""
+    }
+  }
+]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blue Tusk Studio — Devlog</title>
+    <link>https://bluetuskstudio.com/#devlog</link>
+    <atom:link href="https://bluetuskstudio.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Notes from the build at Blue Tusk Studio.</description>
+    <language>en</language>
+
+    <item>
+      <title>Particle pass v2</title>
+      <link>https://bluetuskstudio.com/#devlog</link>
+      <guid isPermaLink="false">bts-2026-05-12-particle-pass-v2</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>Sand Coloring</category>
+      <description>Reworked the sand particle system from a single-emitter setup to a per-touch trail.</description>
+    </item>
+
+    <item>
+      <title>Website v1 is live</title>
+      <link>https://bluetuskstudio.com/#devlog</link>
+      <guid isPermaLink="false">bts-2026-04-28-website-v1</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Studio</category>
+      <description>You're looking at it. Built lean, mostly static, no trackers.</description>
+    </item>
+
+    <item>
+      <title>First closed playtest</title>
+      <link>https://bluetuskstudio.com/#devlog</link>
+      <guid isPermaLink="false">bts-2026-04-10-first-closed-playtest</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <category>Sand Coloring</category>
+      <description>Five friends, three crashes, one near-tears reaction to the haptics.</description>
+    </item>
+
+    <item>
+      <title>Why "Blue Tusk"</title>
+      <link>https://bluetuskstudio.com/#devlog</link>
+      <guid isPermaLink="false">bts-2026-03-22-why-blue-tusk</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <category>Studio</category>
+      <description>It started as a joke about a stubborn mascot that refuses to give up.</description>
+    </item>
+  </channel>
+</rss>
